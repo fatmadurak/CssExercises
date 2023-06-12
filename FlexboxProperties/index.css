@@ -7,9 +7,12 @@
 }
 
 .container{
-
 display: flex;
-
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color:aquamarine;
+height: 100vh;
 
 
 
@@ -19,12 +22,15 @@ display: flex;
 .item{
 
     background-color: orange;
-    padding: 25px;
-    margin:25px ;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
     border-radius: 10px;
-    color:white;
+    color:red;
     font-size: 25px;
     font-weight: bold;
+    text-align: center;
+
     
    
 }
