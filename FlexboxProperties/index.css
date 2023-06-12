@@ -1,0 +1,28 @@
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+
+}
+
+.container{
+
+display: flex;
+
+justify-content: center;
+
+
+
+}
+
+
+.item{
+
+    background-color: pink;
+    padding: 20px;
+    margin-right:20px ;
+  
+   
+}
+
