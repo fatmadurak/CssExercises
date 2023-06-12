@@ -8,7 +8,7 @@
 
 .container{
 display: flex;
-flex-direction: column;
+flex-direction: row;
 justify-content: center;
 align-items: center;
 background-color:aquamarine;
@@ -35,3 +35,49 @@ height: 100vh;
    
 }
 
+
+.container2{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: brown;
+    height: 100vh;
+}
+
+.box{
+
+
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    margin:10px;
+    font-size: 30px;
+    font-weight: bold;
+
+
+
+}
+
+
+.container3{
+
+background-color:blueviolet;
+padding: 10px;
+height: 100vh;
+
+
+}
+
+.kutu{
+
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+}
