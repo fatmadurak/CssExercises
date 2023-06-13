@@ -1,0 +1,40 @@
+.container{
+
+display: flex;
+justify-content: center;
+align-items: center;
+align-items: center;
+background-color: brown;
+height:100vh;
+
+}
+
+.item1{
+
+    width: 200px;
+    height: 200px;
+    background-color: orangered;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.item2{
+
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    text-align: center;
+    flex-grow: 2;
+
+
+}
+.item3{
+
+   
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    flex-grow: 3;
+    text-align: center;
+
+}
