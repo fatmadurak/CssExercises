@@ -1,0 +1,37 @@
+.container4{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: sandybrown;
+    height: 100vh;
+
+}
+
+
+.x1{
+
+height: 100px;
+background-color: red;
+flex:1 0 50%;
+
+}
+
+
+
+.x2{
+
+
+    height: 100px;
+    background-color: green;
+    flex:0 0 30%;
+}
+
+.x3{
+
+
+    height: 100px;
+    background-color: orangered;
+    flex:0 0 10%;
+
+}
