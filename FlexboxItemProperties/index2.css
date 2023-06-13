@@ -1,24 +1,35 @@
 .container2{
 
+display: flex;
+justify-content: space-around;
+align-items: center;
 background-color: blueviolet;
 height: 100vh;
+width: 200px;
 
 }
 
 .box1{
 
-
+width: 100px;
+height: 100px;
+background-color: yellow;
+flex-shrink: 0;
 
 }
 
 .box2{
 
-
-    
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    flex-shrink: 2;
 }
 
 .box3{
 
 
-    
+    width: 100px;
+height: 100px;
+background-color: brown;
 }
