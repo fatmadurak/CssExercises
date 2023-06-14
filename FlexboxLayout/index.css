@@ -196,7 +196,7 @@ align-self: flex-end;
 
 background-color: purple;
 flex: 0 20%;
-height: 100px;
+height:100px;
 
 display: flex;
 justify-content: center;
