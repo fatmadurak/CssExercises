@@ -2,6 +2,7 @@ body{
 
 background-color: silver;
 color:white;
+font-size: 20px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -15,6 +16,7 @@ flex: 0 70%;
 
 
 display: flex;
+justify-content: space-between;
 flex-direction: column;
 height: 100vh;
 background-color: white;
@@ -25,7 +27,7 @@ background-color: white;
 .header{
 
 background-color: red;
-height: 70px;
+flex: 0 10%;
 
 
 display: flex;
@@ -38,6 +40,88 @@ align-items:center ;
 .navbar{
 
     background-color: orange;
+    flex-basis: 70%;
+    height: 60px;
+    font-weight: bold;
+ 
 
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.content{
+
+flex: 0 87%;
+
+display: flex;
+
+
+
+
+}
+
+.left-side{
+
+    flex-basis: 25%;
+    font-size: 25px;
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+
+flex-basis: 30%;
+background-color: rgb(104, 231, 104);
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.bottom{
+
+    flex: 1;
+    background-color: green;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.main{
+
+    flex:1;
+    background-color: rgb(248, 193, 202);
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+
+.cards{
+
+
+
+}
+
+
+.boxes{
+
+
+
+}
+
+.images{
+
+
+    
 }
