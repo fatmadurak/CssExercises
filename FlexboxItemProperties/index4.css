@@ -14,6 +14,8 @@
 height: 100px;
 background-color: red;
 flex:1 0 50%;
+order: 3;
+align-self: flex-end;
 
 }
 
@@ -25,6 +27,7 @@ flex:1 0 50%;
     height: 100px;
     background-color: green;
     flex:0 0 30%;
+    order:1;
 }
 
 .x3{
@@ -33,5 +36,5 @@ flex:1 0 50%;
     height: 100px;
     background-color: orangered;
     flex:0 0 10%;
-
+    order:2;
 }
