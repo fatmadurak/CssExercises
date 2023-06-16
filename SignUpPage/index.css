@@ -23,12 +23,13 @@ align-items: center;
 .container{
 
 
-
+ background-color:  #f5efef;
   width: 70%;
   height: 90%;
-
+  box-shadow:  2px 2px 10px 4px 
+  #f5efef;
   display: flex;
-
+  
 
 
 
@@ -39,7 +40,7 @@ align-items: center;
 
  flex: 0 40%; 
  border-radius: 20px 0 0 20px;
- background-color: rgb(16, 141, 131);   
+ background-color: #3BB397;  
 
  display: flex;
  justify-content: center;
@@ -50,7 +51,7 @@ align-items: center;
 .left-content{
 
   width:350px;
-  height: 300px;
+  height: 280px;
 
 
     display: flex;
@@ -62,14 +63,15 @@ align-items: center;
 
 .left-content >h1{
 
-    font-size: 40px;
+    font-size: 35px;
 }
 .left-content >p{
 
 text-align: center;
-font-size: 20px;
+font-size: 16px;
 font-weight: 570;
 line-height: 1.5;
+
 
 }
 
@@ -77,10 +79,10 @@ line-height: 1.5;
 
     color:white;
     text-decoration: none;
-    padding:17px 85px;
+    padding:10px 65px;
     border:1px solid white;
     border-radius: 30px;
-    font-size: 17px;
+    font-size: 18px;
      
 
 }
@@ -116,7 +118,7 @@ align-items: center;
 
 .right-content >h1{
 
-    color: rgb(16, 141, 131);   
+    color: #3BB397;
     font-size: 40px;
 }
 
