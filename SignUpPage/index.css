@@ -176,8 +176,9 @@ align-items: center;
  position: absolute;
  width: 20px;
  height: 18px;
- fill:#a2a2a2;
  transform: translate(50%,85%);
+ filter: invert(100%);
+ -webkit-filter: invert(65%);
 
 }
 .input{
@@ -193,6 +194,7 @@ border: none;
 
     color: #a2a2a2;
     font-size: 16px;
+    text-indent:2px;
 }
 
 .button{
